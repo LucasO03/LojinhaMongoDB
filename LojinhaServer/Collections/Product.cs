@@ -14,6 +14,10 @@ public class Product
     public string Id { get; set; }
 
     [BsonElement("name")]
+    [JsonPropertyName("Nome")]
+    public string Name { get; set; }
+
+    [BsonElement("description")]
     [JsonPropertyName("Descrição")]
     public string Description { get; set; }
 

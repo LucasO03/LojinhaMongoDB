@@ -1,5 +1,4 @@
 using LojinhaServer.Models;
-using LojinhaServer.Properties;
 using LojinhaServer.Repositories;
 using MongoDB.Driver;
 

@@ -1,6 +1,6 @@
 using LojinhaServer.Collections;
 
-namespace LojinhaServer.Properties;
+namespace LojinhaServer.Repositories;
 
 public interface IProductRepository
 {
